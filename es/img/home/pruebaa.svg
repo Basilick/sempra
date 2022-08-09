@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338.61 38.75">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-16, .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-17 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        font-family: Interstate-Bold, Interstate;
+        font-size: 15px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1724" data-name="Grupo 1724" transform="translate(-76.017 -614.423)">
+    <g id="play_video_about" data-name="play video about" transform="translate(76.017 614.101)">
+      <g id="bg" transform="translate(0 0.323)">
+        <circle class="cls-1" cx="19.37" cy="19.37" r="19.37"/>
+        <circle class="cls-2" cx="19.37" cy="19.37" r="18.87"/>
+      </g>
+      <path id="play" class="cls-6" d="M16.79,24.53V14.22c0-.48,.41-.84,.81-.56,.32,.22,6.76,4.76,7.3,5.15,.31,.25,.36,.7,.11,1.01-.03,.04-.07,.08-.11,.11-.4,.28-6.85,4.84-7.32,5.16-.34,.23-.79-.02-.79-.55Z"/>
+      <g id="See_our_2021_Story" data-name="See our 2021 Story" class="cls-16" transform="translate(51.017 18)">
+        <text class="cls-7" transform="translate(51.02 17.68)"><tspan class="cls-11" x="0" y="0">S</tspan><tspan class="cls-8" x="9.63" y="0">ee our</tspan></text>
+        <text class="cls-7" transform="translate(51.02 32.68)"><tspan class="cls-12" x="0" y="0">20</tspan><tspan class="cls-17" x="19.73" y="0">2</tspan><tspan class="cls-8" x="29.71" y="0">1 </tspan><tspan class="cls-9" x="39.57" y="0">S</tspan><tspan class="cls-4" x="49.12" y="0">t</tspan><tspan class="cls-8" x="55.3" y="0">o</tspan><tspan class="cls-5" x="63.49" y="0">r</tspan><tspan class="cls-3" x="69.93" y="0">y</tspan></text>
+      </g>
+    </g>
+    <g id="play_video_about-2" data-name="play video about-2" transform="translate(254.071 614.101)">
+      <g id="bg-2" transform="translate(0 0.323)">
+        <circle class="cls-1" cx="197.43" cy="19.37" r="19.37"/>
+        <circle class="cls-2" cx="197.43" cy="19.37" r="18.87"/>
+      </g>
+      <path id="play-2" class="cls-6" d="M192.26,15.18h10.31c.48,0,.84,.41,.56,.81-.22,.32-4.76,6.76-5.15,7.3-.25,.31-.7,.36-1.01,.11-.04-.03-.08-.07-.11-.11-.28-.4-4.84-6.85-5.16-7.32-.23-.34,.02-.79,.55-.79Z"/>
+      <g id="Download_full_report_2021" data-name="Download full report 2021" class="cls-16" transform="translate(51.017 18)">
+        <text class="cls-7" transform="translate(229.07 17.68)"><tspan class="cls-3" x="0" y="0">D</tspan><tspan class="cls-12" x="10.47" y="0">o</tspan><tspan class="cls-8" x="18.37" y="0">wnl</tspan><tspan class="cls-13" x="42.09" y="0">o</tspan><tspan class="cls-8" x="50.2" y="0">ad</tspan></text>
+        <text class="cls-7" transform="translate(229.07 32.68)"><tspan class="cls-8" x="0" y="0">full </tspan><tspan class="cls-10" x="26.44" y="0">r</tspan><tspan class="cls-3" x="32.5" y="0">epo</tspan><tspan class="cls-15" x="56.92" y="0">r</tspan><tspan class="cls-8" x="63.48" y="0">t </tspan><tspan class="cls-14" x="74.19" y="0">20</tspan><tspan class="cls-18" x="93.91" y="0">2</tspan><tspan class="cls-8" x="103.9" y="0">1</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
