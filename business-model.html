@@ -100,7 +100,7 @@
           
         <div id="contlanguage"> 
           <a href="es/business-model.html" class="btnlangc"><span class="gtxtwhite">ESP</span> <label class="switch">
-            <input type="checkbox">
+            <input onclick="window.location='es/business-model.html';" type="checkbox" id="checkbox">
             <span class="slider round"></span>
           </label></a>
 
@@ -933,6 +933,21 @@ LNG and Net-Zero Solutions, Energy Networks, and Clean Power.
     }
     burgerMenu();
 </script>
+
+<script>
+
+  var chanlang = function() {
+        $('.btnlangc').click(function toggle(checked) {
+          
+          var elm = document.getElementById('checkbox');
+    if (checked != elm.checked) {
+      elm.click();
+    }
+  });
+  }
+      chanlang();
+   
+  </script>
 
 
 <script>

@@ -99,7 +99,7 @@
           
         <div id="contlanguage"> 
           <a href="es/success-sierra.html" class="btnlangc"><span class="gtxtwhite">ESP</span> <label class="switch">
-            <input type="checkbox">
+            <input  onclick="window.location='es/success-sierra.html';" type="checkbox" id="checkbox">
             <span class="slider round"></span>
           </label></a>
 
@@ -702,7 +702,20 @@
   </script>
 
 
+<script>
 
+  var chanlang = function() {
+        $('.btnlangc').click(function toggle(checked) {
+          
+          var elm = document.getElementById('checkbox');
+    if (checked != elm.checked) {
+      elm.click();
+    }
+  });
+  }
+      chanlang();
+   
+  </script>
 
 
 <script>

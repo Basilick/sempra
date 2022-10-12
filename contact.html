@@ -58,7 +58,7 @@
 
     <!-- Collapsible content -->
    
-      <div class="container-fluid menucont  bgbludark">
+      <div class="container-fluid menucont ">
         <a class="navbar-brand  " href="index.html"><img src="svg/logo-sempra.svg" alt="SEMPRA" ></a>
   
         
@@ -102,7 +102,7 @@
           
         <div id="contlanguage"> 
           <a href="es/contact.html" class="btnlangc"><span class="gtxtwhite">ESP</span> <label class="switch">
-            <input type="checkbox">
+            <input onclick="window.location='es/contact.html';" type="checkbox" id="checkbox">
             <span class="slider round"></span>
           </label></a>
 
@@ -398,19 +398,23 @@
         <h3 class="gtxtwhite mt-4 mb-4"> IF YOU HAVE ANY QUESTIONS OR COMMENTS, <br>
           PLEASE CONTACT OUR SUSTAINABILITY DIVISION.</h3>
 
-         
-          <p  class="gtxtwhite"><span>MEXICO CITY HEADQUARTERS</span></p>
-          <p class="gtxtwhite">Mexico City, Mexico</p>
-          <p class="gtxtwhite">Paseo de la Reforma 342 24th floor</p>
-          <p class="gtxtwhite">Mexico City, Col. Juárez 06600</p>
+          <p  class="gtxtwhite"><span>SAN DIEGO HEADQUARTERS</span></p>
+          <p class="gtxtwhite">San Diego, California, USA</p>
+          <p class="gtxtwhite">488 8<sup>th</sup> Avenue</p>
+          <p class="gtxtwhite ">San Diego, California 92101</p>
 
           <p  class="gtxtwhite mt-4"><span>SEMPRA'S HOUSTON CENTER OF EXCELLENCE</span></p>
           <p class="gtxtwhite">Houston, Texas, USA</p>
           <p class="gtxtwhite">1500 Post Oak Boulevard, Westside</p>
-          <p class="gtxtwhite mb-4">Houston, Texas 77056</p>
+          <p class="gtxtwhite ">Houston, Texas 77056</p>
+
+          <p  class="gtxtwhite  mt-4"><span>MEXICO CITY HEADQUARTERS</span></p>
+          <p class="gtxtwhite">Mexico City, Mexico</p>
+          <p class="gtxtwhite">Paseo de la Reforma 342 24<sup>th</sup> floor</p>
+          <p class="gtxtwhite  mb-4">Mexico City, Col. Juárez 06600</p>
         
          
-          <a href="mailto:sustainability@sempraglobal.com"  class="gtxtwhite mt-4 mb-4">sustainability@sempraglobal.com</a>
+          <a href="mailto:sustainability@sempraglobal.com"  class="d-block gtxtwhite mt-4 mb-4">sustainability@sempraglobal.com</a>
 
           
           
@@ -690,7 +694,20 @@
   </script>
 
 
+<script>
 
+  var chanlang = function() {
+        $('.btnlangc').click(function toggle(checked) {
+          
+          var elm = document.getElementById('checkbox');
+    if (checked != elm.checked) {
+      elm.click();
+    }
+  });
+  }
+      chanlang();
+   
+  </script>
 
 
 

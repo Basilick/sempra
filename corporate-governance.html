@@ -99,7 +99,7 @@
           
         <div id="contlanguage"> 
           <a href="es/corporate-governance.html" class="btnlangc"><span class="gtxtwhite">ESP</span> <label class="switch">
-            <input type="checkbox">
+            <input onclick="window.location='es/corporate-governance.html';" type="checkbox" id="checkbox">
             <span class="slider round"></span>
           </label></a>
 
@@ -806,7 +806,20 @@ Sempra, <br> and Chairman of the Board of Sempra Infrastructure
       burgerMenuo();
   </script>
 
+<script>
 
+  var chanlang = function() {
+        $('.btnlangc').click(function toggle(checked) {
+          
+          var elm = document.getElementById('checkbox');
+    if (checked != elm.checked) {
+      elm.click();
+    }
+  });
+  }
+      chanlang();
+   
+  </script>
 
 
 

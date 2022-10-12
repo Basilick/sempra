@@ -103,7 +103,7 @@
           
         <div id="contlanguage"> 
           <a href="es/success-cameron.html" class="btnlangc"><span class="gtxtwhite">ESP</span> <label class="switch">
-            <input type="checkbox">
+            <input onclick="window.location='es/success-cameron.html';" type="checkbox" id="checkbox">
             <span class="slider round"></span>
           </label></a>
 
@@ -415,7 +415,7 @@
           <p class="mt-4 mb-4">Our Cameron LNG facility includes three compression trains and has approximately 12 Mtpa of LNG of export capacity. Currently, we are actively developing the Cameron LNG Phase 2 expansion, which contemplates a one-train expansion and debottlenecking of the first three trains, and are working with our JV partners Total, Mitsui & Co., Ltd., and Japan LNG Investment, LLC, to continue to advance the project. We have recently requested a revision to our permits, subject to approval by the U.S. Federal Regulatory Commission (FERC), that would allow the use of electric drives rather than gas turbine drives to reduce overall emissions.
           </p> 
 
-          <p class="mt-4 mb-4">We worked in collaboration with the National Institute of Anthropology and History (INAH) in Baja California, to modify the project layout to safeguard the archaeological heritage adjacent to El Vallecito, the only archaeological zone in the state. These efforts resulted in the discovery and protection of new Yuman archaeological remains dating from 700 to 1800 AD. Our alliance and support to INAH Baja California is expected to carry on - as that organization continues working on the analysis and recognition of the El Vallecito area. We are simultaneously rehabilitating the access road and building sanitary facilities for the public to visit this archaeological site.</p>
+          
 
           
 
@@ -441,10 +441,10 @@
 
               <h3 class="gtxtwhite mt-4 mb-4">On environmental impacts </h3>
 
-              <p class="gtxtwhite mt-4 mb-4">The planned Cameron LNG Phase 2 expansion would add an additional train and electric motor-driven compressor to the facility. The use of electric compression would reduce the new train’s Scope 1 direct CO2-equivalent emissions. To further mitigate our emissions at the site, we are regularly enhancing our operating procedures, leading to fewer start and stop cycle processes and limiting venting and flaring. </p>
+              <p class="gtxtwhite mt-4 mb-4">The planned Cameron LNG Phase 2 expansion would add an additional train and electric motor-driven compressor to the facility. The use of electric compression would reduce the new train’s Scope 1 direct CO<sub>2</sub> -equivalent emissions. To further mitigate our emissions at the site, we are regularly enhancing our operating procedures, leading to fewer start and stop cycle processes and limiting venting and flaring. </p>
     
               <p class="gtxtwhite mt-4 mb-4">
-                Additionally, we have also proposed a plan to develop a carbon capture, utilization, and sequestration project to strip out the impurities in the gas and inject it in the ground to reduce the CO2 emissions that would otherwise be released into the atmosphere.</p>
+                Additionally, we have also proposed a plan to develop a carbon capture, utilization, and sequestration project to strip out the impurities in the gas and inject it in the ground to reduce the CO<sub>2</sub> emissions that would otherwise be released into the atmosphere.</p>
     
          
 
@@ -777,7 +777,20 @@
     }
     burgerMenu();
 </script>
+<script>
 
+  var chanlang = function() {
+        $('.btnlangc').click(function toggle(checked) {
+          
+          var elm = document.getElementById('checkbox');
+    if (checked != elm.checked) {
+      elm.click();
+    }
+  });
+  }
+      chanlang();
+   
+  </script>
 <script>
 
   var burgerMenuo = function() {

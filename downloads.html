@@ -102,7 +102,7 @@
           
         <div id="contlanguage"> 
           <a href="es/downloads.html" class="btnlangc"><span class="gtxtwhite">ESP</span> <label class="switch">
-            <input type="checkbox">
+            <input onclick="window.location='es/downloads.html';" type="checkbox" id="checkbox">
             <span class="slider round"></span>
           </label></a>
 
@@ -432,7 +432,7 @@
           </a>
   
   
-          <a href="pdfs/02_Corporate_governance.pdf" target="_blank">
+          <a href="pdfs/02_Corporate_governance.pdf" target="_blank" class="mb-2">
             <div class="btnbg2">
               <img src="img/menu/img-number02-menu.svg" alt="" >
   
@@ -461,7 +461,7 @@
   
           </a>
   
-          <a href="pdfs/04_Championing_people.pdf" target="_blank">
+          <a href="pdfs/04_Championing_people.pdf" target="_blank" class="mb-3">
             <div class="btnbg4">
               <img src="img/menu/img-number04-menu.svg" alt="" >
   
@@ -495,15 +495,17 @@
 
             <a href="pdfs/25_years_of_progress.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> 25 years of progress</a>
 
-            <a href="pdfs/Our_numbers_2021.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Our numbers</a>
+            <a href="pdfs/Our_numbers_2021.pdf" target="_blank" class="gtxtwhite  mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Our numbers</a>
 
             <a href="pdfs/Awards_and_recognitions_2021.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Awards and recognitions</a>
 
             <a href="pdfs/About_this_report.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> About this report</a>
 
-            <a href="pdfs/Forward_looking_statements_and_other_information.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Forward-Looking Statements and Other Information</a>
+            <a href="pdfs/Forward_looking_statements_and_other_information.pdf" target="_blank" class="gtxtwhite mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Forward-Looking Statements and Other Information</a>
 
-            
+            <a href="pdfs/Independence_assurance_report.pdf" target="_blank" class="gtxtwhite  mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Independence Assurance Report</a>
+
+            <a href="pdfs/Principles_of_the_UN_Global_Compact.pdf" target="_blank" class="gtxtwhite mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Principles of the UN Global Compact</a>
 
             
       </div>
@@ -511,9 +513,7 @@
 
       <div class="col-12 col-lg-3  contbtnsapend">
   
-        <a href="pdfs/Independence_assurance_report.pdf" target="_blank" class="gtxtwhite  mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Independence Assurance Report</a>
-
-        <a href="pdfs/Principles_of_the_UN_Global_Compact.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Principles of the UN Global Compact</a>
+     
         
         <a href="pdfs/GRI_Content_Index.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> GRI Content Index</a>
 
@@ -524,6 +524,10 @@
         <a href="pdfs/ESG_Performance.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> ESG Performance</a>
 
         <a href="pdfs/Glossary.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Glossary</a>
+
+        <a href="pdfs/Executive_Summary_2021.pdf" target="_blank" class="gtxtwhite mt-3 mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Executive Summary</a>
+
+        <a href="pdfs/AR_Brochute_2021.pdf" target="_blank" class="gtxtwhite  mb-3 "><i class="fas fa-arrow-alt-to-bottom"></i> Brochure</a>
       
         
       </div>
@@ -672,6 +676,21 @@
     }
     burgerMenu();
 </script>
+
+<script>
+
+  var chanlang = function() {
+        $('.btnlangc').click(function toggle(checked) {
+          
+          var elm = document.getElementById('checkbox');
+    if (checked != elm.checked) {
+      elm.click();
+    }
+  });
+  }
+      chanlang();
+   
+  </script>
 
 <script>
 

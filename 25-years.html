@@ -103,7 +103,7 @@
           
         <div id="contlanguage"> 
           <a href="es/25-years.html" class="btnlangc"><span class="gtxtwhite">ESP</span> <label class="switch">
-            <input type="checkbox">
+            <input onclick="window.location='es/25-years.html';" type="checkbox" id="checkbox">
             <span class="slider round"></span>
           </label></a>
 
@@ -653,7 +653,7 @@
               <p class="mb-4">LPG storage facility</p>
               
             
-              <p class="txtcifras03 gtxtblueaqua  mt-4 ">4.58 MMbl</p>
+              <p class="txtcifras03 gtxtblueaqua  mt-4 ">4.58 MM<span class="txtnoupper">bl</span></p>
               <p class="mb-4">Refined products storage capacity under construction or in operation<sup>3,4</sup></p>
             
             
@@ -674,7 +674,7 @@
         <p class="txtcifras03 gtxtsgreen   mt-4 ">1,699 MW</p>
         <p class="mb-4">Power generation capacity<sup>5</sup></p>
         
-        <p class="txtcifras03 gtxtsgreen   mt-4 ">2,546,613 MWh</p>
+        <p class="txtcifras03 gtxtsgreen   mt-4 ">2,546,613 MW<span class="txtnoupper">h</span></p>
         <p class="mb-4"> Renewable energy generated</p>
 
         <p class="txtcifras03 gtxtsgreen  mt-4 ">2</p>
@@ -746,7 +746,7 @@
 
             <img src="img/years/award2.png" alt="" >
             
-            <p class="mb-4"><span class="gtxtbluestrong txtbold">The Energy Risk Award, Deal of the Year</span>, for our ECA LNG Phase 1 project under construction, which was the only export facility worldwide to reach a final investment decision in 2020.</p>
+            <p class="mb-4"><span class="gtxtbluestrong txtbold">The Energy Risk Award, Deal of the Year,</span> for our ECA LNG Phase 1 project under construction, which was the only export facility worldwide to reach a final investment decision in 2020.</p>
 
           </div>
 
@@ -754,7 +754,7 @@
 
             <img src="img/years/award3.png" alt="" >
             
-            <p class="mb-4"><span class="gtxtbluestrong txtbold">LatinFinance Oil and Gas Financing of the Year Award</span> for our ECA LNG Phase 1 project under construction for having secured financing in 2020.</p>
+            <p class="mb-4"><span class="gtxtbluestrong txtbold">LatinFinance Oil and Gas Financing of the Year Award,</span> for our ECA LNG Phase 1 project under construction for having secured financing in 2020.</p>
 
           </div>
 
@@ -1167,7 +1167,20 @@
       }
       burgerMenuo();
   </script>
+<script>
 
+  var chanlang = function() {
+        $('.btnlangc').click(function toggle(checked) {
+          
+          var elm = document.getElementById('checkbox');
+    if (checked != elm.checked) {
+      elm.click();
+    }
+  });
+  }
+      chanlang();
+   
+  </script>
 
 
 

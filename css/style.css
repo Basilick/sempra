@@ -260,6 +260,9 @@ p span.txtupper {
 }
 
 
+.txtupper {
+  text-transform: uppercase;
+}
 
 
 
@@ -527,6 +530,10 @@ p span.txtupper {
 .txtnote {
   font-size: 10px;
 }
+
+.txtnoupper{
+  text-transform: none;
+} 
 
 /*--------------------------------------------------------------
 # Preloader
@@ -2546,7 +2553,7 @@ background-size: cover;
 background-position: center;
   background-color: #001689;
  background-repeat: no-repeat;
-  height: 83vh;
+ height: auto;
 }
 
 #contact_sec01 .row {

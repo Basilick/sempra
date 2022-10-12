@@ -528,6 +528,13 @@ p span.txtupper {
   font-size: 10px;
 }
 
+.txtupper {
+  text-transform: uppercase;
+}
+
+.txtnoupper{
+  text-transform: none;
+} 
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1552,7 +1559,7 @@ a.ainactive {
 
 #home_video .imgtitlesbanprin2 {
   display: block;
-    width: 280px;
+    width: 330px;
     margin-left: 0px;
     margin-top: 115px;
     margin-bottom: 10px;
@@ -2546,7 +2553,7 @@ background-size: cover;
 background-position: center;
   background-color: #001689;
  background-repeat: no-repeat;
-  height: 83vh;
+ height: auto;
 }
 
 #contact_sec01 .row {
